@@ -18,6 +18,8 @@
 
 - Implement Sign out
 - Update Profile
+- Bug Fix: Sign up user display name & profile picture update
+- Bug Fix: If the user is not logged in Redirect /browse to Login Page and vice-versa 
 - Fetch movies from TMDB
  
 # Features
