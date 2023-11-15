@@ -19,6 +19,7 @@
 - Bug Fix: Sign up user display name & profile picture update
 - Bug Fix: If the user is not logged in Redirect /browse to Login Page and vice-versa 
 - unsubscribed to the onAuthStateChanged call back
+- Add hardcoded values to the constant file
 
  
 =
