@@ -14,8 +14,6 @@
 - Create Sign up user Account 
 - Implement Sign In user API
 - Created Redux store with userSlice 
-
-
 - Implement Sign out
 - Update Profile
 - Bug Fix: Sign up user display name & profile picture update
