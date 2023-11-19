@@ -37,7 +37,17 @@
 - Title & description
 - MoviesSuggestions
 - MovieLists * N
-
 - NetflixGPT
 - Search bar
 - Movie Suggestion
+
+# Structure of Netflix
+
+- main container  
+🌟Video Background
+🌟Video Title
+
+- secondary container
+🌟movie list * n
+🌟cards * n
+
