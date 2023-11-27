@@ -11,7 +11,7 @@ const useNowPlayingMovies = () => {
   const getmoviePlaying = async () => {
     const data = await fetch(API, API_OPTIONS);
     const json = await data.json();
-    console.log(json.results);
+   
     dispatch(addNowMoviesPlaying(json.results)); // dispatch the action
   };
 

@@ -10,7 +10,7 @@ const MainContainer = () => {
   if (!movies) return;  // If movies is not present or movies === null then return and it will not go ahead 
 
   const mainMovie = movies[0]
-  console.log(mainMovie);
+  
 
   const { original_title, overview, id } = mainMovie;  
 
