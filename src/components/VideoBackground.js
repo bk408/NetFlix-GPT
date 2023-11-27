@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { API_OPTIONS } from "../utils/constant";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addTrailerVideo } from "../utils/movieSlice";
 
 const VideoBackground = ({ movieId }) => {
+  const trailerVideo = useSelector((store) => store.movies?.trailerVideo);
   const dispatch = useDispatch();
 
   // Fetch trailer video
   const getMoviesVideos = async () => {
     const data = await fetch(
-      "https://api.themoviedb.org/3/movie/670292/videos?language=en-US",
+      "https://api.themoviedb.org/3/movie/901362/videos?language=en-US",
       API_OPTIONS
     );
     const json = await data.json();
@@ -30,7 +31,7 @@ const VideoBackground = ({ movieId }) => {
       <iframe
         width="560"
         height="315"
-        src={"https://www.youtube.com/embed/"}
+        src={"https://www.youtube.com/embed/" + trailerVideo?.key}
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
