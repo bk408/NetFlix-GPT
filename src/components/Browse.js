@@ -5,17 +5,18 @@ import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 import usePopularMovies from "../hooks/usePopularMovies";
 import useTopRatedMovies from "../hooks/useTopRatedMovies";
+import useUpcomingMovies from "../hooks/useUpcomingMovies";
 
 const Browse = () => {
   useNowPlayingMovies(); // custom hook
   usePopularMovies(); // Custom Hook
-  useTopRatedMovies() // Custom Hook
-  
+  useTopRatedMovies(); // Custom Hook
+  useUpcomingMovies(); // Custom Hook 
 
   return (
     <div>
       <Header />
-     <MainContainer />
+      <MainContainer />
       <SecondaryContainer />
     </div>
   );
