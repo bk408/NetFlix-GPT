@@ -27,7 +27,7 @@ export const TOPRATED_API = "https://api.themoviedb.org/3/movie/top_rated?page=1
 
 export const UPCOMING_API = "https://api.themoviedb.org/3/movie/upcoming?page=1";
 
-
+export const LATEST_API = "https://api.themoviedb.org/3/movie/latest";
 
 
 

@@ -6,12 +6,14 @@ import SecondaryContainer from "./SecondaryContainer";
 import usePopularMovies from "../hooks/usePopularMovies";
 import useTopRatedMovies from "../hooks/useTopRatedMovies";
 import useUpcomingMovies from "../hooks/useUpcomingMovies";
+import useLatestMovies from "../hooks/useLatestMovies";
 
 const Browse = () => {
   useNowPlayingMovies(); // custom hook
   usePopularMovies(); // Custom Hook
   useTopRatedMovies(); // Custom Hook
   useUpcomingMovies(); // Custom Hook 
+  useLatestMovies(); // Custom Hook
 
   return (
     <div>
