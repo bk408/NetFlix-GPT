@@ -16,19 +16,24 @@ export const API_OPTIONS = {
   },
 };
 
-
 export const API = "https://api.themoviedb.org/3/movie/now_playing?page=1";
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const POPULAR_API = "https://api.themoviedb.org/3/movie/popular?page=1";
 
-export const TOPRATED_API = "https://api.themoviedb.org/3/movie/top_rated?page=1";
+export const TOPRATED_API =
+  "https://api.themoviedb.org/3/movie/top_rated?page=1";
 
-export const UPCOMING_API = "https://api.themoviedb.org/3/movie/upcoming?page=1";
+export const UPCOMING_API =
+  "https://api.themoviedb.org/3/movie/upcoming?page=1";
 
 export const LATEST_API = "https://api.themoviedb.org/3/movie/latest";
 
-
-
-
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "german", name: "German" },
+  { identifier: "spanish", name: "Spanish" },
+  { identifier: "french", name: "French" },
+];
