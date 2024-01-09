@@ -1,7 +1,7 @@
 
 # Netflix-GPT
 
-- Create react app
+- Create React app
 - Configure Tailwind css
 - Header
 - Routing of App
@@ -11,14 +11,14 @@
 - useRef Hook
 - Firebase setup
 - Deploying our app to production
-- Create Sign up user Account 
+- Create Signup User Account 
 - Implement Sign In user API
-- Created Redux store with userSlice 
+- Created Redux store with user slice 
 - Implement Sign out
 - Update Profile
 - Bug Fix: Sign up user display name & profile picture update
-- Bug Fix: If the user is not logged in Redirect /browse to Login Page and vice-versa 
-- unsubscribed to the onAuthStateChanged call back
+- Bug Fix: If the user is not logged in Redirect /browse to the Login Page and vice-versa 
+- unsubscribed to the onAuthStateChanged callback
 - Add hardcoded values to the constant file
 - Register TMDB API & create an app & get access token
 - Get data from TMDB now playing movies list API
@@ -28,9 +28,9 @@
 - Planning for main container & secondary container
 - Fetch data for Trailer Video
 - Update store with Trailer video data 
-- Embedded YouTube video and make it auto play & mute
-- Tailwind classes to make main container look awesome
-- Build Secondary container
+- Embedded YouTube video and make it auto-play & mute
+- Tailwind classes to make the main container look awesome
+- Build a Secondary container
 - Build Movie List
 - Build Movie card
 - TMDB Image CDN URL
@@ -38,7 +38,7 @@
 - usePopularMovies custom hook
 - GPT Search Page
 - GPT Search Bar
-- Multi Language Feature 
+- Multi-Language Feature 
  
 =
 # Features
