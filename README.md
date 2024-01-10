@@ -1,4 +1,3 @@
-
 # Netflix-GPT
 
 - Create React app
@@ -66,4 +65,3 @@
 - secondary container
 🌟movie list * n
 🌟cards * n
-
