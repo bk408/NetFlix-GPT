@@ -38,7 +38,7 @@
 - GPT Search Page
 - GPT Search Bar
 - Multi-Language Feature 
- 
+
 =
 # Features
 
